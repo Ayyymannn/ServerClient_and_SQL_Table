@@ -54,7 +54,6 @@ int main(){
 
 
     printf("Connected to weather server.\n");
-    printf("Connected to weather server.\n");
 
     pthread_create(&client_thread, NULL, receive_messages, &sock);
 
